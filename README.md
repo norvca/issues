@@ -1,18 +1,11 @@
 # Issues
 Kinds of irritating issues
 
-### NPM
-- Issue: Error when excute `npm run lint`
+## WSL
+#### Issue: Can't use `npm install <package>` 
+Reason: [Symlink issue]( https://github.com/microsoft/WSL/issues/3 )
 
-  Reason: Shows when script exits with a code that is not `0`
+Solution: 
 
-  Solution: 
-
-  ```json
-  // Package.json
-  {
-    "scripts": {
-      "lint": "eslint src || exit 0"
-    }
-  }
-  ```
+- Exit `VS Code`, use WSL terminal to install packages
+- Or add ` --no-bin-links ` tail when installing, like `npm install <package> --no-bin-links `

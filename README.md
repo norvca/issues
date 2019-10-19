@@ -1,5 +1,5 @@
 # Issues
-Kinds of irritate issues
+Kinds of irritating issues
 
 ### NPM
 - Issue: Error when excute `npm run lint`

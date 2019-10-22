@@ -8,7 +8,6 @@ Reason: [Symlink issue]( https://github.com/microsoft/WSL/issues/3 )
 Solution: 
 
 - Exit `VS Code`, use WSL terminal to install packages
-- Or add ` --no-bin-links ` tail when installing, like `npm install <package> --no-bin-links `
 
 
 
@@ -20,4 +19,4 @@ Error: `npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for f
 
 Reason: Unknown
 
-Solution: Use `npm i -f`
+Solution:Close terminal in VS Code, Use `npm i -f` in WSL terminal directly.

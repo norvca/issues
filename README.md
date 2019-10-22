@@ -19,4 +19,4 @@ Error: `npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for f
 
 Reason: Unknown
 
-Solution:Close terminal in VS Code, Use `npm i -f` in WSL terminal directly.
+Solution: Close terminal in VS Code, Use `npm i -f` in WSL terminal directly.

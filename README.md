@@ -20,3 +20,21 @@ Error: `npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for f
 Reason: Unknown
 
 Solution: Close terminal in VS Code, Use `npm i -f` in WSL terminal directly.
+
+
+
+## Docker
+#### Issue: Conflict between Docker and Vmware  in windows
+
+#### Solution:
+Switch to VMware workstation
+```bash
+# Need to restart computer
+bcdedit /set hypervisorlaunchtype off
+```
+
+Switch to Docker
+```bash
+# Need to restart computer
+bcdedit /set hypervisorlaunchtype auto
+```

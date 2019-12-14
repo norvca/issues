@@ -30,11 +30,15 @@ Solution: Close terminal in VS Code, Use `npm i -f` in WSL terminal directly.
 Switch to VMware workstation
 ```bash
 # Need to restart computer
+Windows feature -> turn off Hyper-v
+
 bcdedit /set hypervisorlaunchtype off
 ```
 
 Switch to Docker
 ```bash
 # Need to restart computer
+Windows feature -> turn on Hyper-v
+
 bcdedit /set hypervisorlaunchtype auto
 ```

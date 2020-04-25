@@ -42,3 +42,15 @@ Windows feature -> turn on Hyper-v
 
 bcdedit /set hypervisorlaunchtype auto
 ```
+
+
+
+## Cypress
+
+### Use cypress in WSL
+
+- Can't download and open cypress in **Node v12.16+**, use **Node v12.15.0**
+- Install other packages in WSL and install cypress package individually in windows terminal
+
+- Open project in WSL and then open cypress in Windows terminal
+
